@@ -1,0 +1,200 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem",
+			"hiddenComponent": false,
+			"id": "044d-dc4f-446e-775d",
+			"props": {
+				"children": [
+					"af66-591b-883a-0cd9"
+				],
+				"name": "news_listviewItem",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"borderColor": "rgba( 255, 255, 255, 0 )",
+				"borderRadius": 20,
+				"ios": {
+					"shadowOpacity": 0,
+					"shadowOffset": {
+						"y": 0
+					}
+				},
+				"top": 300
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "af66-591b-883a-0cd9",
+			"oldName": "flexLayout3",
+			"props": {
+				"children": [
+					"3a0a-7e95-66f0-1b50",
+					"86fd-f48a-4db6-96c2"
+				],
+				"name": "flItem",
+				"parent": "044d-dc4f-446e-775d"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"paddingBottom": 20,
+				"paddingTop": 20
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "3a0a-7e95-66f0-1b50",
+			"oldName": "fLBody",
+			"props": {
+				"children": [
+					"0495-273e-35d4-cc35",
+					"8a4d-929d-655b-5df5",
+					"557b-f97d-f7f6-765d"
+				],
+				"name": "flBody",
+				"parent": "af66-591b-883a-0cd9",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"borderColor": "rgba( 255, 255, 255, 0 )",
+				"flexProps": {
+					"alignSelf": "FLEX_START",
+					"justifyContent": "CENTER"
+				},
+				"height": null,
+				"ios": {
+					"shadowOpacity": 0,
+					"shadowColor": "rgba( 0, 0, 0, 1 )"
+				},
+				"paddingBottom": 5,
+				"paddingLeft": 12,
+				"paddingRight": 12,
+				"paddingTop": 5,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView",
+			"id": "0495-273e-35d4-cc35",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "image",
+				"parent": "3a0a-7e95-66f0-1b50",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"borderRadius": 20,
+				"height": 150,
+				"imageFillType": "ASPECTFILL",
+				"maxHeight": 150,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "8a4d-929d-655b-5df5",
+			"oldName": "title",
+			"props": {
+				"children": [],
+				"name": "lblTitle",
+				"parent": "3a0a-7e95-66f0-1b50",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"font": {
+					"size": 15,
+					"bold": true,
+					"italic": false,
+					"family": "SFProText",
+					"style": "Semibold"
+				},
+				"height": null,
+				"marginTop": 20,
+				"maxLines": 2,
+				"text": "label1",
+				"textColor": "rgba( 74, 144, 226, 1 )",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "557b-f97d-f7f6-765d",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblDescription",
+				"parent": "3a0a-7e95-66f0-1b50",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"font": {
+					"size": 12,
+					"bold": true,
+					"italic": false,
+					"family": "SFProText",
+					"style": "Semibold"
+				},
+				"height": null,
+				"marginTop": 10,
+				"maxLines": 3,
+				"text": "label1",
+				"textColor": "rgba( 0, 0, 0, 1 )",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "86fd-f48a-4db6-96c2",
+			"oldName": "flexLayout2",
+			"props": {
+				"children": [],
+				"name": "flLine",
+				"parent": "af66-591b-883a-0cd9",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"backgroundColor": "rgba( 210, 210, 210, 1 )",
+				"flexProps": {
+					"positionType": "ABSOLUTE"
+				},
+				"height": 1,
+				"left": 12,
+				"right": 12,
+				"usePageVariable": true
+			}
+		}
+	]
+}
