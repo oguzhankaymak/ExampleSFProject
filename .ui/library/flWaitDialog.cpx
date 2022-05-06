@@ -1,0 +1,55 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout",
+			"hiddenComponent": true,
+			"id": "6ced-61af-4e87-c406",
+			"props": {
+				"children": [
+					"f694-10fb-2092-a7fe"
+				],
+				"name": "flWaitDialog",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"bottom": 0,
+				"flexProps": {
+					"alignItems": "CENTER",
+					"justifyContent": "CENTER",
+					"alignContent": "CENTER",
+					"flexGrow": 1
+				},
+				"height": null,
+				"left": 0,
+				"right": 0,
+				"top": 0
+			}
+		},
+		{
+			"className": ".sf-activityIndicator",
+			"id": "f694-10fb-2092-a7fe",
+			"oldName": "activityIndicator1",
+			"props": {
+				"children": [],
+				"name": "activityIndicatorMain",
+				"parent": "6ced-61af-4e87-c406"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ActivityIndicator",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"color": "rgba( 83, 177, 117, 1 )",
+				"height": 70,
+				"minHeight": 70,
+				"minWidth": 70,
+				"width": 70
+			}
+		}
+	]
+}
