@@ -1,0 +1,114 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "a56f-cf81-8865-c898",
+			"initialized": false,
+			"props": {
+				"children": [
+					"b53a-59f8-dd6c-c364",
+					"49f8-a474-c46f-d390",
+					"66e4-b710-db50-8b60"
+				],
+				"name": "sportsPage",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.0.1.a",
+			"degree": 0
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "b53a-59f8-dd6c-c364",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "a56f-cf81-8865-c898"
+			},
+			"type": "StatusBar",
+			"userProps": {},
+			"degree": 1
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "49f8-a474-c46f-d390",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "a56f-cf81-8865-c898",
+				"title": "generalPage"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "generalPage"
+			},
+			"degree": 1
+		},
+		{
+			"className": ".sf-listView",
+			"id": "66e4-b710-db50-8b60",
+			"oldName": "listView1",
+			"props": {
+				"children": [
+					"7399-3095-66c0-b25e"
+				],
+				"name": "listNews",
+				"parent": "a56f-cf81-8865-c898",
+				"rowHeight": 315,
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"height": 620,
+				"marginLeft": 14,
+				"marginRight": 14,
+				"marginTop": 14,
+				"rowHeight": 315,
+				"testId": "00Vayja4t",
+				"top": 20,
+				"usePageVariable": true
+			},
+			"degree": 1
+		},
+		{
+			"className": ".sf-listViewItem",
+			"hiddenComponent": false,
+			"id": "7399-3095-66c0-b25e",
+			"props": {
+				"children": [],
+				"name": "news_listviewItem",
+				"parent": "66e4-b710-db50-8b60"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__",
+				"type": "news_listviewItem",
+				"id": "044d-dc4f-446e-775d"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"borderColor": "rgba( 255, 255, 255, 0 )",
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"ios": {
+					"shadowOpacity": 0
+				},
+				"left": 0,
+				"top": 0
+			},
+			"degree": 2
+		}
+	]
+}

@@ -46,7 +46,7 @@ const bottomTabBarRouter = BottomTabBarRouter.of({
               visible: true
           }),
           routes: [
-              Route.of<Pages.Page1>({
+              Route.of<Pages.GeneralPage>({
                   path: `/btb/tab1/generalPage`,
                   build(router, route) {
                       return new Pages.GeneralPage(router, route);
@@ -61,7 +61,7 @@ const bottomTabBarRouter = BottomTabBarRouter.of({
           path: '/btb/tab2',
           to: '/btb/tab2/businessPage',
           routes: [
-              Route.of<Pages.Page1>({
+              Route.of<Pages.BusinessPage>({
                   path: `/btb/tab2/businessPage`,
                   build(router, route) {
                       return new Pages.BusinessPage(router, route);
@@ -74,12 +74,12 @@ const bottomTabBarRouter = BottomTabBarRouter.of({
       }),
       NativeStackRouter.of({
           path: '/btb/tab3',
-          to: '/btb/tab3/page3',
+          to: '/btb/tab3/sportsPage',
           routes: [
-              Route.of<Pages.Page3>({
-                  path: `/btb/tab3/page3`,
+              Route.of<Pages.SportsPage>({
+                  path: `/btb/tab3/sportsPage`,
                   build(router, route) {
-                      return new Pages.Page3(router, route);
+                      return new Pages.SportsPage(router, route);
                   },
                   headerBarParams: () => ({
                       visible: true,
