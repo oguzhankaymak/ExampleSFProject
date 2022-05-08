@@ -1,4 +1,10 @@
 {
-  "key1": "value1",
-  "key2": "value2"
+    "defaultEnvironment": "prod",
+    "environments": {
+		"dev": {},
+		"prep": {},
+		"prod": {
+			"serviceUrl": "https://newsapi.org/v2/top-headlines?apiKey=TOKEN_KEY&language=tr&category="
+		}
+	}
 }
