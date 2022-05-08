@@ -59,12 +59,12 @@ const bottomTabBarRouter = BottomTabBarRouter.of({
       }),
       NativeStackRouter.of({
           path: '/btb/tab2',
-          to: '/btb/tab2/page2',
+          to: '/btb/tab2/businessPage',
           routes: [
               Route.of<Pages.Page1>({
-                  path: `/btb/tab2/page2`,
+                  path: `/btb/tab2/businessPage`,
                   build(router, route) {
-                      return new Pages.Page2(router, route);
+                      return new Pages.BusinessPage(router, route);
                   },
                   headerBarParams: () => ({
                       visible: true,

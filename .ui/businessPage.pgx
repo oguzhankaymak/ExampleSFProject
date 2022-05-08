@@ -1,0 +1,114 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "f5f2-67f0-c5a0-6ce3",
+			"initialized": false,
+			"props": {
+				"children": [
+					"a69f-b5ce-314f-cb63",
+					"6873-3c0f-06cc-ca74",
+					"3558-9a24-b3b5-90c4"
+				],
+				"name": "businessPage",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.0.1.a",
+			"degree": 0
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "a69f-b5ce-314f-cb63",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "f5f2-67f0-c5a0-6ce3"
+			},
+			"type": "StatusBar",
+			"userProps": {},
+			"degree": 1
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "6873-3c0f-06cc-ca74",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "f5f2-67f0-c5a0-6ce3",
+				"title": "generalPage"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "generalPage"
+			},
+			"degree": 1
+		},
+		{
+			"className": ".sf-listView",
+			"id": "3558-9a24-b3b5-90c4",
+			"oldName": "listView1",
+			"props": {
+				"children": [
+					"1d91-480b-f895-0825"
+				],
+				"name": "listNews",
+				"parent": "f5f2-67f0-c5a0-6ce3",
+				"rowHeight": 315,
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"height": 620,
+				"marginLeft": 14,
+				"marginRight": 14,
+				"marginTop": 14,
+				"rowHeight": 315,
+				"testId": "00Vayja4t",
+				"top": 20,
+				"usePageVariable": true
+			},
+			"degree": 1
+		},
+		{
+			"className": ".sf-listViewItem",
+			"hiddenComponent": false,
+			"id": "1d91-480b-f895-0825",
+			"props": {
+				"children": [],
+				"name": "news_listviewItem",
+				"parent": "3558-9a24-b3b5-90c4"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__",
+				"type": "news_listviewItem",
+				"id": "044d-dc4f-446e-775d"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"borderColor": "rgba( 255, 255, 255, 0 )",
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"ios": {
+					"shadowOpacity": 0
+				},
+				"left": 0,
+				"top": 0
+			},
+			"degree": 2
+		}
+	]
+}
