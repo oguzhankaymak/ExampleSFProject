@@ -4,3 +4,5 @@ export { default as Page3 } from './page3';
 export { default as GeneralPage } from './generalPage';
 export { default as BusinessPage } from './businessPage';
 export { default as SportsPage } from './sportsPage';
+export { default as TechnologyPage } from './technologyPage';
+export { default as HealthPage } from './healthPage';

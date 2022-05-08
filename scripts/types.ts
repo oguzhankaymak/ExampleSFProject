@@ -26,4 +26,5 @@ export enum Category {
     SPORTS="sports",
     SCIENCE="science",
     TECHNOLOGY="technology",
+    HEALTH="health",
 }

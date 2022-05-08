@@ -86,7 +86,37 @@ const bottomTabBarRouter = BottomTabBarRouter.of({
                   }),
               })
           ]
-      })
+      }),
+      NativeStackRouter.of({
+        path: '/btb/tab4',
+        to: '/btb/tab4/technologyPage',
+        routes: [
+            Route.of<Pages.TechnologyPage>({
+                path: `/btb/tab4/technologyPage`,
+                build(router, route) {
+                    return new Pages.TechnologyPage(router, route);
+                },
+                headerBarParams: () => ({
+                    visible: true,
+                }),
+            })
+        ]
+    }),
+    NativeStackRouter.of({
+        path: '/btb/tab5',
+        to: '/btb/tab5/healthPage',
+        routes: [
+            Route.of<Pages.HealthPage>({
+                path: `/btb/tab5/healthPage`,
+                build(router, route) {
+                    return new Pages.HealthPage(router, route);
+                },
+                headerBarParams: () => ({
+                    visible: true,
+                }),
+            })
+        ]
+    })
   ]
 });
 
