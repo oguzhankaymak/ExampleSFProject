@@ -1,0 +1,109 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "f629-305f-82fa-cd0f",
+			"initialized": true,
+			"props": {
+				"children": [
+					"7d16-9ca2-1f9d-93b6",
+					"a3b8-b5fb-1086-407e",
+					"3cd5-cd98-a23f-7541"
+				],
+				"name": "generalPage",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.0.1.a"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "7d16-9ca2-1f9d-93b6",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "f629-305f-82fa-cd0f"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "a3b8-b5fb-1086-407e",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "f629-305f-82fa-cd0f",
+				"title": "generalPage"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "generalPage"
+			}
+		},
+		{
+			"className": ".sf-listView",
+			"id": "3cd5-cd98-a23f-7541",
+			"oldName": "listView1",
+			"props": {
+				"children": [
+					"d276-79da-b317-82a9"
+				],
+				"name": "listNews",
+				"parent": "f629-305f-82fa-cd0f",
+				"rowHeight": 315,
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"height": 620,
+				"marginLeft": 14,
+				"marginRight": 14,
+				"marginTop": 14,
+				"rowHeight": 315,
+				"testId": "00Vayja4t",
+				"top": 20,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-listViewItem",
+			"hiddenComponent": false,
+			"id": "d276-79da-b317-82a9",
+			"props": {
+				"children": [],
+				"name": "news_listviewItem",
+				"parent": "3cd5-cd98-a23f-7541"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__",
+				"type": "news_listviewItem",
+				"id": "044d-dc4f-446e-775d"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"borderColor": "rgba( 255, 255, 255, 0 )",
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"ios": {
+					"shadowOpacity": 0
+				},
+				"left": 0,
+				"top": 0
+			}
+		}
+	]
+}

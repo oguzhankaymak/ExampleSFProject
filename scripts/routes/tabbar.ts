@@ -4,7 +4,7 @@ import * as Pages from 'pages';
 
 const bottomTabBarRouter = BottomTabBarRouter.of({
   path: '/btb',
-  to: '/btb/tab1/page1',
+  to: '/btb/tab1/generalPage',
   homeRoute: 0,
   tabbarParams: () => ({
     ios: { translucent: false },
@@ -41,15 +41,15 @@ const bottomTabBarRouter = BottomTabBarRouter.of({
       // tab1
       NativeStackRouter.of({
           path: '/btb/tab1',
-          to: '/btb/tab1/page1',
+          to: '/btb/tab1/generalPage',
           headerBarParams: () => ({
               visible: true
           }),
           routes: [
               Route.of<Pages.Page1>({
-                  path: `/btb/tab1/page1`,
+                  path: `/btb/tab1/generalPage`,
                   build(router, route) {
-                      return new Pages.Page1(router, route);
+                      return new Pages.GeneralPage(router, route);
                   },
                   headerBarParams: () => ({
                       visible: true,
