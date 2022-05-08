@@ -19,6 +19,10 @@ export default class HealthPage extends withDismissAndBackButton(MyPageDesign) {
         super({});
     }
 
+    openNews (url: String): void {
+        this.router.push('/btb/tab5/newsDetail', { url });
+    }
+
     addHeader() {
         this.headerBar.title = '';
         this.headerBar.titleLayout = setHeader(this.flHeader);
@@ -70,6 +74,7 @@ export default class HealthPage extends withDismissAndBackButton(MyPageDesign) {
             })
             listViewItem.titleText = this.data[index].title;
             listViewItem.descriptionText = this.data[index].description
+            listViewItem._openNews = () => this.openNews(this.data[index].url)
 
             if (index > this.data.length - 3 && !this.isLoading && !(this.totalResults<= this.data.length)) {
                 this.isLoading = true;

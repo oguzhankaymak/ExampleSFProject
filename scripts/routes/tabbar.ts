@@ -1,6 +1,7 @@
 import { BottomTabBarRouter, NativeStackRouter, Route, NativeRouter } from '@smartface/router';
 import Color from '@smartface/native/ui/color';
 import * as Pages from 'pages';
+import detailsGenerator from './detail';
 
 const bottomTabBarRouter = BottomTabBarRouter.of({
   path: '/btb',
@@ -54,7 +55,8 @@ const bottomTabBarRouter = BottomTabBarRouter.of({
                   headerBarParams: () => ({
                       visible: true,
                   }),
-              })
+              }),
+              detailsGenerator('/btb/tab1')
           ]
       }),
       NativeStackRouter.of({
@@ -70,6 +72,7 @@ const bottomTabBarRouter = BottomTabBarRouter.of({
                       visible: true,
                   }),
               }),
+              detailsGenerator('/btb/tab2')
           ]
       }),
       NativeStackRouter.of({
@@ -84,7 +87,8 @@ const bottomTabBarRouter = BottomTabBarRouter.of({
                   headerBarParams: () => ({
                       visible: true,
                   }),
-              })
+              }),
+              detailsGenerator('/btb/tab3')
           ]
       }),
       NativeStackRouter.of({
@@ -99,7 +103,8 @@ const bottomTabBarRouter = BottomTabBarRouter.of({
                 headerBarParams: () => ({
                     visible: true,
                 }),
-            })
+            }),
+            detailsGenerator('/btb/tab4')
         ]
     }),
     NativeStackRouter.of({
@@ -114,7 +119,8 @@ const bottomTabBarRouter = BottomTabBarRouter.of({
                 headerBarParams: () => ({
                     visible: true,
                 }),
-            })
+            }),
+            detailsGenerator('/btb/tab5')
         ]
     })
   ]

@@ -6,3 +6,4 @@ export { default as BusinessPage } from './businessPage';
 export { default as SportsPage } from './sportsPage';
 export { default as TechnologyPage } from './technologyPage';
 export { default as HealthPage } from './healthPage';
+export { default as NewsDetailPage } from './newsDetailPage';
