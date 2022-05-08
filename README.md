@@ -58,3 +58,8 @@ You can either use as is, expand it or delete them.
 
 Create free API key on [NewsAPI](https://newsapi.org) and add it in config.json
 
+## Screen Recording
+
+https://user-images.githubusercontent.com/36153454/167291054-c5785910-8b51-48fe-9fcb-12d1becc977b.MP4
+
+
