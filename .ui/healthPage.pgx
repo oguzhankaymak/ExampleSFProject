@@ -5,7 +5,6 @@
 			"hiddenComponent": true,
 			"id": "e326-a455-c61c-df33",
 			"initialized": false,
-			"oldName": "technologyPage_1",
 			"props": {
 				"children": [
 					"cfa5-3bca-4d0f-b174",
@@ -18,7 +17,8 @@
 			},
 			"type": "Page",
 			"userProps": {},
-			"version": "0.0.1.a"
+			"version": "0.0.1.a",
+			"degree": 0
 		},
 		{
 			"className": ".sf-statusBar",
@@ -30,7 +30,8 @@
 				"parent": "e326-a455-c61c-df33"
 			},
 			"type": "StatusBar",
-			"userProps": {}
+			"userProps": {},
+			"degree": 1
 		},
 		{
 			"className": ".sf-headerBar",
@@ -45,7 +46,8 @@
 			"type": "HeaderBar",
 			"userProps": {
 				"title": "generalPage"
-			}
+			},
+			"degree": 1
 		},
 		{
 			"className": ".sf-listView",
@@ -73,7 +75,8 @@
 				"testId": "00Vayja4t",
 				"top": 20,
 				"usePageVariable": true
-			}
+			},
+			"degree": 1
 		},
 		{
 			"className": ".sf-listViewItem",
@@ -105,7 +108,8 @@
 				},
 				"left": 0,
 				"top": 0
-			}
+			},
+			"degree": 2
 		}
 	]
 }

@@ -4,7 +4,6 @@
 			"className": ".sf-page",
 			"id": "c6df-cdeb-de00-20bc",
 			"initialized": false,
-			"oldName": "generalPage_1",
 			"props": {
 				"children": [
 					"8b84-f7ef-90b0-1e58",
@@ -17,7 +16,8 @@
 			},
 			"type": "Page",
 			"userProps": {},
-			"version": "0.0.1.a"
+			"version": "0.0.1.a",
+			"degree": 0
 		},
 		{
 			"className": ".sf-statusBar",
@@ -29,7 +29,8 @@
 				"parent": "c6df-cdeb-de00-20bc"
 			},
 			"type": "StatusBar",
-			"userProps": {}
+			"userProps": {},
+			"degree": 1
 		},
 		{
 			"className": ".sf-headerBar",
@@ -44,7 +45,8 @@
 			"type": "HeaderBar",
 			"userProps": {
 				"title": "generalPage"
-			}
+			},
+			"degree": 1
 		},
 		{
 			"className": ".sf-listView",
@@ -72,7 +74,8 @@
 				"testId": "00Vayja4t",
 				"top": 20,
 				"usePageVariable": true
-			}
+			},
+			"degree": 1
 		},
 		{
 			"className": ".sf-listViewItem",
@@ -104,7 +107,8 @@
 				},
 				"left": 0,
 				"top": 0
-			}
+			},
+			"degree": 2
 		}
 	]
 }

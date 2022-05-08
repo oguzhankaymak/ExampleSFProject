@@ -5,15 +5,23 @@ import { Router, Route } from '@smartface/router';
 import { Category, INews } from "types";
 import { hideWaitDialog, showWaitDialog } from "lib/waitDialog";
 import { getNews } from "service/news";
+import setHeader from "lib/setHeader";
+import FlHeader from "components/FlHeader";
 
 
 export default class GeneralPage extends withDismissAndBackButton(MyPageDesign) {
+    flHeader: FlHeader;
     data: INews[] = [];
     isLoading: boolean = false;
     page: number =  1;
     totalResults: number;
     constructor(private router?: Router, private route?: Route) {
         super({});
+    }
+
+    addHeader() {
+        this.headerBar.title = '';
+        this.headerBar.titleLayout = setHeader(this.flHeader);
     }
 
     centerizeTheChildrenLayout() {
@@ -77,7 +85,7 @@ export default class GeneralPage extends withDismissAndBackButton(MyPageDesign) 
      */
     onShow() {
         super.onShow();
-        
+        this.addHeader();
     }
 
     /**
